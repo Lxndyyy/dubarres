@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TEST Restaurant Neuss - Authentische Shawarma Spezialitäten und Middle Eastern Cuisine auf Krefelder Straße 27, 41460 Neuss">
+    <title>TEST Restaurant Neuss | Middle Eastern Cuisine & Shawarma Spezialitäten</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <span class="logo-dubai">TEST</span>
+                <span class="logo-restaurant">RESTAURANT</span>
+            </div>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">Über Uns</a></li>
+                <li><a href="#menu" class="nav-link">Speisekarte</a></li>
+                <li><a href="#gallery" class="nav-link">Galerie</a></li>
+                <li><a href="#contact" class="nav-link">Kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="hero-dubai">TEST</span>
+                    <span class="hero-restaurant">RESTAURANT</span>
+                </h1>
+                <p class="hero-subtitle">Authentische Middle Eastern Cuisine in Neuss</p>
+                <div class="hero-buttons">
+                    <a href="#menu" class="btn btn-primary">Speisekarte ansehen</a>
+                    <a href="https://wa.me/4921312031515" target="_blank" class="btn btn-secondary">
+                        <span class="btn-icon">📞</span> Jetzt bestellen
+                    </a>
+                </div>
+            </div>
+            <div class="palm-decorations">
+                <div class="palm-left"></div>
+                <div class="palm-right"></div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Willkommen bei TEST Restaurant</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Authentische Shawarma Spezialitäten</h3>
+                    <p>Bei TEST Restaurant Neuss erleben Sie die authentischen Aromen des Nahen Ostens. Unsere Shawarma Spezialitäten werden frisch zubereitet und mit Liebe zum Detail serviert.</p>
+                    <p>Unser modernes Restaurant auf der TEST Straße bietet Ihnen eine einzigartige Kombination aus traditioneller Middle Eastern Cuisine und zeitgemäßer Atmosphäre.</p>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">🥙</div>
+                            <h4>Frisch Zubereitet</h4>
+                            <p>Alle Gerichte täglich frisch gemacht</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">🌿</div>
+                            <h4>Hochwertige Zutaten</h4>
+                            <p>Nur die besten Zutaten für Sie</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">⭐</div>
+                            <h4>Authentisch</h4>
+                            <p>Traditionelle Rezepte aus dem Orient</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <span>Shawarma Grill</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Unsere Speisekarte</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Entdecken Sie unsere köstlichen Spezialitäten</p>
+            </div>
+            
+            <div class="menu-categories">
+                <button class="category-btn active" data-category="all">Alle</button>
+                <button class="category-btn" data-category="shawarma">Shawarma</button>
+                <button class="category-btn" data-category="plates">Teller</button>
+                <button class="category-btn" data-category="sides">Beilagen</button>
+                <button class="category-btn" data-category="drinks">Getränke</button>
+            </div>
+
+            <div class="menu-grid">
+                <!-- Shawarma Items -->
+                <div class="menu-card" data-category="shawarma">
+                    <div class="menu-card-image">
+                        <div class="image-placeholder">
+                            <span class="food-emoji">🌯</span>
+                        </div>
+                        <div class="price-tag">6,50 €</div>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Chicken Shawarma</h3>
+                        <p class="menu-description">Saftiges Hähnchen mit frischem Gemüse und hausgemachten Sauces</p>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="shawarma">
+                    <div class="menu-card-image">
+                        <div class="image-placeholder">
+                            <span class="food-emoji">🥙</span>
+                        </div>
+                        <div class="price-tag">7,00 €</div>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Beef Shawarma</h3>
+                        <p class="menu-description">Zartes Rindfleisch mit Tahini-Sauce und orientalischen Gewürzen</p>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="shawarma">
+                    <div class="menu-card-image">
+                        <div class="image-placeholder">
+                            <span class="food-emoji">🌮</span>
+                        </div>
+                        <div class="price-tag">7,50 €</div>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Mix Shawarma</h3>
+                        <p class="menu-description">Kombination aus Hähnchen und Rind mit allen Extras</p>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="shawarma">
+                    <div class="menu-card-image">
+                        <div class="image-placeholder">
+                            <span class="food-emoji">🧆</span>
+                        </div>
+                        <div class="price-tag">5,50 €</div>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Falafel Wrap</h3>
+                        <p class="menu-description">Knusprige Falafel mit Hummus und frischem Salat</p>
+                    </div>
+                </div>
+
+                <!-- Plate Items -->
+                <div class="menu-card" data-category="plates">
+                    <div class="menu-card-image">
+                        <div class="image-placeholder">
+                            <span class="food-emoji">🍽️</span>
+                        </div>
+                        <div class="price-tag">12,00 €</div>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Shawarma Teller</h3>
+                        <p class="menu-description">Großzügiger Teller mit Shawarma, Reis, Salat und Sauces</p>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="plates">
+                    <div class="menu-card-image">
+                        <div class="image-placeholder">
+                            <span class="food-emoji">🍖</span>
+                        </div>
+                        <div class="price-tag">14,00 €</div>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Grill Teller</h3>
+                        <p class="menu-description">Gemischte Grillplatte mit Hähnchen, Rind und Lamm</p>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="plates">
+                    <div class="menu-card-image">
+                        <div class="image-placeholder">
+                            <span class="food-emoji">🥗</span>
+                        </div>
+                        <div class="price-tag">10,00 €</div>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Falafel Teller</h3>
+                        <p class="menu-description">Vegetarischer Teller mit Falafel, Hummus und Tabbouleh</p>
+                    </div>
+                </div>
+
+                <!-- Sides -->
+                <div class="menu-card" data-category="sides">
+                    <div class="menu-card-image">
+                        <div class="image-placeholder">
+                            <span class="food-emoji">🥣</span>
+                        </div>
+                        <div class="price-tag">4,00 €</div>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Hummus</h3>
+                        <p class="menu-description">Cremiger Kichererbsenpüree mit Tahini</p>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="sides">
+                    <div class="menu-card-image">
+                        <div class="image-placeholder">
+                            <span class="food-emoji">🍟</span>
+                        </div>
+                        <div class="price-tag">3,50 €</div>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Pommes Frites</h3>
+                        <p class="menu-description">Knusprige goldene Pommes</p>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="sides">
+                    <div class="menu-card-image">
+                        <div class="image-placeholder">
+                            <span class="food-emoji">🥙</span>
+                        </div>
+                        <div class="price-tag">4,50 €</div>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Tabouleh Salat</h3>
+                        <p class="menu-description">Frischer Petersiliensalat mit Bulgur</p>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="sides">
+                    <div class="menu-card-image">
+                        <div class="image-placeholder">
+                            <span class="food-emoji">🥙</span>
+                        </div>
+                        <div class="price-tag">4,50 €</div>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Tabouleh Salat</h3>
+                        <p class="menu-description">Frischer Petersiliensalat mit Bulgur und Tomaten</p>
+                    </div>
+                </div>
+
+                <!-- Drinks -->
+                <div class="menu-card" data-category="drinks">
+                    <div class="menu-card-image">
+                        <div class="image-placeholder">
+                            <span class="food-emoji">🥛</span>
+                        </div>
+                        <div class="price-tag">2,50 €</div>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Ayran</h3>
+                        <p class="menu-description">Traditionelles Joghurtgetränk</p>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="drinks">
+                    <div class="menu-card-image">
+                        <div class="image-placeholder">
+                            <span class="food-emoji">🥤</span>
+                        </div>
+                        <div class="price-tag">2,00 €</div>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Soft Drinks</h3>
+                        <p class="menu-description">Cola, Fanta, Sprite</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Impressionen</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Einblicke in unser Restaurant</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">Restaurant Außenansicht</div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">Shawarma Grill</div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">Gemütliches Ambiente</div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">Außenbereich</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Kontakt & Öffnungszeiten</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">📍</div>
+                        <h3>Adresse</h3>
+                        <p>TEST Straße TEST<br>TEST Neuss<br>Deutschland</p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">📞</div>
+                        <h3>Telefon</h3>
+                        <p>
+                            <a href="tel:+4921312031515" class="phone-link">+49 2131 2031515</a><br>
+                            <a href="https://wa.me/4921312031515" target="_blank" class="whatsapp-btn">
+                                <span class="whatsapp-icon">💬</span> WhatsApp
+                            </a>
+                        </p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">🕒</div>
+                        <h3>Öffnungszeiten</h3>
+                        <p>Mo - So: 11:00 - 23:00 Uhr</p>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <h3>Nachricht senden</h3>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="E-Mail" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Telefon">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="Ihre Nachricht" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Nachricht senden</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>TEST RESTAURANT</h3>
+                    <p>Authentische Middle Eastern Cuisine in Neuss</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Schnelllinks</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">Über Uns</a></li>
+                        <li><a href="#menu">Speisekarte</a></li>
+                        <li><a href="#contact">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Kontakt</h4>
+                    <p>TEST <br>TEST Neuss</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 TEST Restaurant Neuss. Alle Rechte vorbehalten.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
